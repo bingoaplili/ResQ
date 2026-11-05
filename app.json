@@ -1,0 +1,38 @@
+
+{
+  "expo": {
+    "name": "ResQ",
+    "slug": "resq",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "resq",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "app.resq.safety"
+    },
+    "android": {
+      "package": "app.resq.safety",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#13273F"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-status-bar",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#13273F"
+        }
+      ]
+    ]
+  }
+}
